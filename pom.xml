@@ -41,6 +41,7 @@
     </build>
 
     <scm>
+        <url>C:\Users\Jacob\Desktop\Tutorials etc\BeginnerToGuru\Spring Framework 5\sfg-pet-clinic\.git</url>
         <developerConnection>scm:git:https://github.com/Jacobanna/sfg-pet-clinic.git</developerConnection>
         <tag>sfg-pet-clinic-0.0.2</tag>
     </scm>
