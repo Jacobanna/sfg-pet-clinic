@@ -23,6 +23,7 @@ public class SpecialitySDJpaService implements SpecialityService {
     public Set<Speciality> findAll() {
         Set<Speciality> specialities = new HashSet<>();
         specialityRepository.findAll().forEach(specialities::add);
+
         return specialities;
     }
 
