@@ -54,7 +54,6 @@ class OwnerControllerTest {
 
     @Test
     void listOwnersByIndex() throws Exception {
-
         when(ownerService.findAll()).thenReturn(owners);
 
         mockMvc.perform(get("/owners/index"))
